@@ -1,8 +1,12 @@
-public class MySQL {
-    public void insert(String statement){}
-    public void select(String statement){}
-    public void delete(String statement){}
-    public void update(String statement){}
+public class MySQL implements ServiceDB{
+    @Override
+    public void insert(){}
+    @Override
+    public void select(){}
+    @Override
+    public void delete(){}
+    @Override
+    public void update(){}
     // More Methods
 }
 
